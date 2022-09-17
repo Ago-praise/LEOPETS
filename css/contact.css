@@ -1,0 +1,78 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.empty-section{
+     width: 100%;
+     height: 100vh;
+}
+
+.contactform-section{
+     width: 100%;
+     height: 100vh;
+}
+.formhead{
+     font-size: 30px;
+     color:#082B49;
+}
+.formsection-main{
+     display:flex;
+     justify-content: center;
+     
+}
+textarea{
+     margin-top: 30px;
+     height: 30vh;
+     width: 700px;
+     border: 1px solid #f0e9ff;
+     background-color: transparent;
+     font-family: cursive;
+     outline: none;
+     border-radius: 5px;
+}
+input[type="text"]{
+     border: 1px solid #f0e9ff;
+     background-color: transparent;
+     font-family: cursive;
+     outline: none;
+     margin-top:30px;
+     margin-bottom:30px;
+     padding: 10px;
+     width:327px;
+     border-radius: 5px;
+     height: 48px;
+}
+input[type="email1"]{
+     border:1px solid #f0e9ff;
+     background-color: transparent;
+     font-family: cursive;
+     outline: none;
+     margin-top:30px;
+     margin-bottom:30px;
+     margin-left: 40px;
+     padding: 10px;
+     width:327px;
+     border-radius: 5px;
+     height: 48px;
+}
+input[type="text2"]{
+     border: 1px solid #f0e9ff;
+     background-color: transparent;
+     font-family: cursive;
+     outline: none;
+     margin-bottom:20px;
+     padding: 10px;
+     width:700px;
+     border-radius: 5px;
+     height: 48px;
+}
+.contact-icon{
+     margin-top: 60px;
+     margin-left: 60px;
+}
+.media-bodymain{
+     color:#082B49;
+     font-weight: 100;
+}

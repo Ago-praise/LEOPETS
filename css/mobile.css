@@ -1,0 +1,366 @@
+/*************************************************************/
+/*Mobile Screen*/
+@media (max-width:600px){
+     body{
+          background-color: rgb(175, 218, 231);
+     }
+     .adoptus-section{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+     
+     }
+     .adoptus-text{
+          width:50%;
+     }
+     .adoptus-numbers{
+          margin-top: 20px;
+          display: flex;
+     }
+     .available{
+          margin-right: 20px;
+     }
+     .adoptus-button{
+          margin-bottom: 50px;
+          margin-top: 30px;
+          padding-left: 50px;
+          padding-bottom: 20px;
+          padding-top: 20px;
+          padding-right: 50px;
+          border-radius: 50px;
+          background-color:#17a2b8 ;
+          color: white;
+          border: none;
+     }
+     .container4{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+     }
+     .banner-maintext{
+          color: #082B49;
+          font-size: 70px;
+          width: 80%;
+          line-height: 0.9;
+          margin-bottom: 30px;
+     }
+     .aboutbanner-text{
+          margin-left: 80px;
+          font-size: 70px;
+          color:#082B49;
+     }
+     .main{
+          width: 90%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+     }
+     .button{
+          padding: 15px;
+          border-radius: 50px;
+          background-color: crimson;
+          border: none;
+          font-size: 10px;
+          color: white;
+     }
+     .phone{
+          font-size: 20px;
+          margin-right: 10px;
+     }
+     .navbar{
+          background-color: #082B49;
+          height: 10vh;
+          display: flex; 
+          align-items: center;
+          justify-content: center;  
+     }
+     .navbar-option a{
+          text-decoration: none;
+          padding: 10px;
+     }
+     span{
+          font-size: 15px;
+          color: white;
+     }
+     .footer-head{
+     
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     .news{
+          margin-top: 50px;
+          color: white;
+          font-size: 25px;
+          font-weight: 50;
+          margin-bottom: 20px;
+     }
+     .footer-para{
+          color:white;
+          margin-bottom: 40px;
+     
+     }
+     input[type="email"]{
+          padding:21px;
+        
+          font-size: 15px;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border: none;
+     }
+     .footer-button{
+          padding: 22px;
+          border: none;
+          background: crimson;
+          font-size: 15px;
+          position: relative;
+          right: 2%;
+          color: white;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+     }
+     
+     .grid-nav li{
+          list-style-type: none;
+          
+     }
+     
+     .grid-nav a{
+          text-decoration:  none;
+          font-size: 10px;
+          color: white;
+          
+     }
+     .grid-nav a:hover{
+       text-decoration: none;
+       color: #17a2b8;  
+     }
+     
+     .grid-item{
+         margin-bottom: 10px; 
+     }
+     .grid{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          justify-items: center;
+          margin-top: 100px;
+          margin-bottom: 100px;
+     }
+     .grid-head{
+          color: white;
+          font-size:15px;
+          font-weight: 100;
+          margin-top: 30px;
+          margin-bottom:30px; 
+     }
+     .line{
+          width: 80%;
+          height: 2px;
+          background-color: white;
+     }
+     
+     .copyinfo{
+          color: white;
+          font-size: 10px;
+     }
+     .copyright{
+          margin-top: 40px;
+          margin-bottom: 40px;
+          max-width: 80%;
+          display: flex;
+          
+     }
+     .bottom{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     textarea{
+          margin-top: 30px;
+          height: 30vh;
+          width: 250px;
+          border: 1px solid #f0e9ff;
+          background-color: transparent;
+          font-family: cursive;
+          outline: none;
+          border-radius: 5px;
+     }
+     input[type="text"]{
+          border: 1px solid #f0e9ff;
+          background-color: transparent;
+          font-family: cursive;
+          outline: none;
+          margin-top:30px;
+          margin-bottom:30px;
+          padding: 10px;
+          width:122px;
+          border-radius: 5px;
+          height: 48px;
+          font-size: 10px;
+     }
+     input[type="email1"]{
+          border:1px solid #f0e9ff;
+          background-color: transparent;
+          font-family: cursive;
+          outline: none;
+          margin-top:30px;
+          margin-bottom:30px;
+          margin-left: 20px;
+          padding: 10px;
+          width:122px;
+          border-radius: 5px;
+          height: 48px;
+          font-size: 10px;
+     }
+     input[type="text2"]{
+          border: 1px solid #f0e9ff;
+          background-color: transparent;
+          font-family: cursive;
+          outline: none;
+          margin-bottom:20px;
+          padding: 10px;
+          width:250px;
+          border-radius: 5px;
+          height: 48px;
+     }
+     .gallery-grid{
+          display: grid;
+          grid-template-columns: auto ;
+          width: 85%;
+          column-gap: 40px;
+          row-gap: 40px;
+     }
+}
+@media (max-width:450px){
+     .navbar-option a{
+          text-decoration: none;
+          padding: 5px;
+     }
+     .grid{
+          display: flex;
+          flex-direction: column;
+          width: 90%;
+          padding-left: 100px;
+          margin-top: 50px;
+          margin-bottom: 40px;
+     }
+     .grid-head{
+          color: white;
+          font-size:15px;
+          font-weight: 100;
+          margin-top: 10px;
+          margin-bottom:10px; 
+     }
+     .button{
+          position: absolute;
+          display: none;
+     }
+     .copyinfo{
+          color: white;
+          margin-left:10px;
+     }
+     .copyright{
+          margin-top: 40px;
+          margin-bottom: 40px;
+          max-width: 80%;
+          display: flex;
+     }
+}
+@media(max-width:400px){
+     .button{
+          position: absolute;
+          display: none;
+          padding: 20px;
+          border-radius: 50px;
+          background-color: crimson;
+          border: none;
+          font-size: 15px;
+          color: white;
+     }
+     .phone{
+          font-size: 20px;
+          margin-right: 0px;
+     }
+     .header-area{
+          width: 100%;
+     }
+     .quote{
+          font-size: 20px;
+          max-width: 60%;
+          text-align: center;
+          font-weight: 100;
+          margin-top: 30px;
+          margin-bottom: 30px;
+     }
+     .quote5{
+          font-size: 20px;
+          max-width: 50%;
+          text-align: center;
+          font-weight: 100;
+          margin-top: 30px;
+          margin-bottom: 30px;
+     }
+     .footer-head{
+     
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     .news{
+          margin-top: 50px;
+          color: white;
+          font-size: 25px;
+          font-weight: 50;
+          margin-bottom: 20px;
+     }
+     .footer-para{
+          color:white;
+          margin-bottom: 40px;
+          font-size: 12px;
+          width: 70%;
+     
+     }
+     input[type="email"]{
+          padding:21px;
+        
+          font-size: 15px;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border: none;
+     }
+     .footer-button{
+          padding: 10px;
+          margin-top: 30px;
+          border: none;
+          background: crimson;
+          font-size: 15px;
+          color: white;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+     }
+     .form{
+          display: flex;
+          flex-direction: column;
+     }
+     .volunteer-button{
+          margin-top: 20px;
+          padding-left: 12px;
+          padding-bottom: 12px;
+          padding-top: 12px;
+          padding-right: 12px;
+          border-radius: 50px;
+          background-color:#17a2b8 ;
+          color: white;
+          border: none;
+          
+     }
+     .volunteer-button:hover{
+          background-color: crimson;
+     }
+}
